@@ -1,0 +1,308 @@
+@import url("https://use.typekit.net/exp8wsv.css");
+@import url('https://fonts.cdnfonts.com/css/avenir');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color:#fff;
+    border-bottom: #FF595A solid 4px;
+    position: relative;
+}
+
+.logo {
+    width: 350px;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+.navbar .nav-link {
+    color: #084975;
+    font-family: all-round-gothic, sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    display: block;
+}
+
+.navbar .nav-link::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    background: #eb6560;
+    width: 45%;
+    height: 2px;
+    bottom: -6px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .3s;
+}
+.navbar .nav-link:hover:after {
+    content: '';
+    left: 0;
+    position: absolute;
+    background: #eb6560;
+    width: 45%;
+    height: 2px;
+    bottom: -6px;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform .3s;
+}
+
+
+.navbar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 40px;
+}
+/*  End Header  */
+
+/* Hamburger */
+
+
+
+/* Main Hover Links */
+ a {
+    display: inline-block;
+    font-family: all-round-gothic, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    position: relative;
+    color: #fff;
+}
+
+.content-left a::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    background: #eb6560;
+    width: 45%;
+    height: 2px;
+    bottom: -6px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .3s;
+}
+.content-left a:hover:after {
+    content: '';
+    left: 0;
+    position: absolute;
+    background: #eb6560;
+    width: 45%;
+    height: 2px;
+    bottom: -6px;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform .3s;
+}
+.content-right a::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    background: #084975;
+    width: 45%;
+    height: 2px;
+    bottom: -6px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .3s;
+}
+.content-right a:hover:after {
+    content: '';
+    left: 0;
+    position: absolute;
+    background: #084975;
+    width: 45%;
+    height: 2px;
+    bottom: -6px;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform .3s;
+}
+/*------ Main Body Content------ */
+.hero, .preprint, 
+.web, .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+}
+
+.web {
+    background-image: linear-gradient(#ffc3c3, #eb6560);
+}
+
+.preprint, .logos {
+    background-image: linear-gradient(#04253B, #084975);
+}
+
+h1 {
+    font-family: all-round-gothic, sans-serif; 
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #fff; 
+}
+
+.hero h1, h3 {
+    color: #084975;
+}
+
+span, .orange {
+    color: #FF595A;
+}
+
+span, .blue {
+    color: #084975;
+}
+
+.content-right h3 {
+    color: #084975;
+}
+
+.content-left h3 {
+    color: #fff;
+}
+
+.preprint .content-left,
+.logos .content-left {
+    margin-left: 4rem;
+    padding: 2rem;
+}
+
+.logos .content-right {
+    margin-right: 4rem;
+    padding: 2rem;
+}
+
+.hero .content-right,
+.web .content-right {
+    margin-right: 4rem;
+    padding: 2rem;
+}
+
+.hero .content-left,
+.web .content-left {
+    margin-left: 4rem;
+    padding: 2rem;
+}
+
+/*------- Contact ------- */
+.contact-background {
+    background-image: linear-gradient(#04253B, #084975);
+}
+
+#container {
+    max-width: 450px;
+    margin: 2rem auto;
+}
+
+.form-wrap h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+::placeholder {
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.3rem;
+}
+
+.form-wrap {
+    padding: 1rem;
+    font-family: 'Avenir', sans-serif;
+}
+
+.form-wrap input {
+    width: 100%;
+    padding: 1.3rem;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    font-family: 'Avenir', sans-serif;
+}
+
+.form-wrap p {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+textarea {
+    width: 100%;
+    margin: 1.3rem 0;
+    font-family: 'Avenir', sans-serif;
+    padding: 1rem;
+    font-size: 1.3rem;
+    resize: none;
+}
+
+.form-btn {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.3rem;
+    border: none;
+    background-color: #fff;
+    color: #084975;
+}
+
+.form-btn:hover {
+    background-color: #084975;
+    transition: 0.3s;
+    color: #fff;
+}
+
+
+/* -----Gallery----- */
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #f9f9f9;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+.footer p {
+    font-family: avenir;
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-style: normal;
+    color: #084975;
+}
+
+

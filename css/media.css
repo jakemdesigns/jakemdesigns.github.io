@@ -1,0 +1,241 @@
+/* Navigation */
+@media screen and (max-width:768px){
+    .navbar {
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .logo {
+        padding-left: 0;
+        width: 300px;
+    }
+
+    .navbar li {
+        padding: 0;
+    }
+}
+
+
+@media screen and (min-width:320px){
+    .preprint, .logos {
+        flex-direction: column-reverse;
+    }
+
+    .hero .content-left, .web .content-left {
+        text-align: center;
+        margin-left: 0;
+    }
+    .hero .content-right, .web .content-right {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .preprint .content-right, .logos .content-right {
+        margin-right: 0;
+        text-align: center;
+    }
+    .preprint .content-left, .logos .content-left {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .preprint .content-right img {
+        border: solid 2px #fff;
+        margin-top: 2rem;
+    }
+
+    img {
+        width: 300px;
+    }
+    
+    .hero, .web {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+   
+    a {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+    .footer p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    footer {
+        min-height: 100%;
+        max-height: 100%;
+    }
+
+}
+@media screen and (min-width:768px){
+    .preprint, .logos {
+        flex-direction: row;
+    }
+
+    .preprint .content-right img {
+        border: none;
+
+    }
+
+    .hero .content-left, .web .content-left {
+        text-align: center;
+        margin-left: 0;
+    }
+    .hero .content-right, .web .content-right {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .preprint .content-right, .logos .content-right {
+        margin-right: 0;
+        text-align: center;
+    }
+    .preprint .content-left, .logos .content-left {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    img {
+        width: 300px;
+    }
+    
+    .hero, .web {
+        flex-direction: row;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+   
+    a {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+    .footer p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1100px){
+    .hero .content-left, .web .content-left{
+        margin-left: 5rem;
+        text-align: left;
+    }
+
+    .hero .content-right, .web .content-right {
+        margin-right: 5rem;
+        text-align: left;
+    }
+
+    .preprint .content-left, .logos .content-left{
+        margin-left: 5rem;
+        text-align: left;
+    }
+
+    .logos .content-right {
+        margin-right: 5rem;
+    }
+
+    img {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .hero .content-left, .web .content-left{
+        margin-left: 6rem;
+        text-align: left;
+    }
+
+    .hero .content-right, .web .content-right {
+        margin-right: 6rem;
+        text-align: left;
+    }
+
+    .preprint .content-left, .logos .content-left{
+        margin-left: 6rem;
+        text-align: left;
+    }
+
+    .logos .content-right {
+        margin-right: 6rem;
+    }
+
+    img {
+        width: 700px;
+    }
+
+    h1 {
+        font-size: 4.2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+   
+    a {
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:2560px){
+    .hero .content-left, .web .content-left{
+        margin-left: 10rem;
+        text-align: left;
+    }
+
+    .hero .content-right, .web .content-right {
+        margin-right: 10rem;
+        text-align: left;
+    }
+
+    .preprint .content-left, .logos .content-left{
+        margin-left: 10rem;
+        text-align: left;
+    }
+
+    .logos .content-right {
+        margin-right: 10rem;
+    }
+
+    img {
+        width: 900px;
+    }
+
+    h1 {
+        font-size: 4.2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+   
+    a {
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+}
+
+/* Lets Connect */
+
